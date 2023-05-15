@@ -6,7 +6,7 @@ public class ATM {
 public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         Bank theBank = new Bank("Bank of Maharashtra");
-        User newUser = theBank.addUser("Nisarga", "Telang", "1507");
+        User newUser = theBank.addUser("Akanksh", "Bodakhe", "7084");
         Account newAccount = new Account ("savings" , newUser , theBank);
         newUser.addAccount(newAccount);
         theBank.addAccount(newAccount);
